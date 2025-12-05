@@ -42,7 +42,7 @@ if __name__ == "__main__":
 def main():
     try:
         with open("students_questions.txt", "a", encoding="utf-8") as file:
-            file.write("\n\nСтудент 3: Швачко Єгор\n")
+            file.write("\n\nСтудент 3: Швачко Є.В.\n")
             
             file.write("Відповідь: Список (list) — це впорядкована змінна структура даних, яка може містити елементи різних типів. "
                        "Для додавання елемента в кінець списку використовується метод .append().\n")
@@ -54,3 +54,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
